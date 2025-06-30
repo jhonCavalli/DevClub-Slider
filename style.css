@@ -33,5 +33,30 @@ header a {
     width: 100vw;
     margin-top: -50px;
     overflow: hidden;
-    
 }
+
+.container .list .list-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container .list .list-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.container .list .list-item .content {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    box-shadow: 0 5px 10px #0004;
+}
+
+.container .list .list-item .title
+
