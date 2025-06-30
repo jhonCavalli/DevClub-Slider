@@ -58,5 +58,20 @@ header a {
     box-shadow: 0 5px 10px #0004;
 }
 
-.container .list .list-item .title
+.container .list .list-item .title {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.container .list .list-item .discription {
+    line-height: 1.5em;
+}
+
+.container .list .list-item .buttons {
+    display: flex;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 50px;
+
+}
 
