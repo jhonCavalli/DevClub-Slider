@@ -3,5 +3,35 @@
     padding: 0;
     box-sizing: border-box;
      font-family: "Montserrat", sans-serif;
+     text-decoration: none;
 }
 
+body {
+    background-color: #000;
+    color: #eee;
+    font-size: 12px;
+}
+
+header {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+header a {
+    color: #eee;
+    margin-right: 40px;
+    font-weight: 300;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin-top: -50px;
+    overflow: hidden;
+    
+}
