@@ -118,6 +118,7 @@ header a {
     width: 135px;
     height: 200px;
     position: relative;
+    z-index: 3;
 }
 
 .container .thumb .thumb-item img {
@@ -216,6 +217,7 @@ header a {
     animation-delay: 2s;
 }
 
+/* imagem principal next */
 .container.next .list .list-item:nth-last-child(1) img {
     width: 150px;
     height: 220px;
@@ -237,6 +239,26 @@ header a {
     }
 }
 
+/* imagem principal back */
+
+
+.container.back .list .list-item:nth-child(1) img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: hideMainImage 0.5s linear 1 forwards;
+    z-index: 2;
+}
+
+@keyframes hideMainImage {
+    to {
+        width:135px;
+        height: 200px;
+        border-radius: 10px;
+        left: 50%;
+        bottom: 50px;
+    }
+}
 
 
 
