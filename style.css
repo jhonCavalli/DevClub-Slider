@@ -142,3 +142,20 @@ header a {
     left: 120px;
     width: 300px;
 }
+
+.container .arrows button {
+    border-radius: 10px;
+    border: none;
+    padding: 12px 17px;
+    cursor: pointer;
+    background-color: #eee4;
+    color: #eee;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.container .arrows button:hover {
+    background-color: #eee;
+    color: #000;
+    transition: 0.7s;
+}
