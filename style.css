@@ -80,7 +80,7 @@ header a {
 .container .list .list-item .buttons button {
     border: none;
     background-color: #eee;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
@@ -105,3 +105,40 @@ header a {
     color: #000;
 }
 
+.container .thumb {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    display: flex;
+    gap: 20px;
+}
+
+.container .thumb .thumb-item {
+    width: 135px;
+    height: 200px;
+    position: relative;
+}
+
+.container .thumb .thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+.container .thumb .content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.container .arrows {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    width: 300px;
+}
