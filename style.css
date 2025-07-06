@@ -78,6 +78,7 @@ header a {
 }
 
 .container .list .list-item .buttons button {
+    padding: 8px;
     border: none;
     background-color: #eee;
     letter-spacing: 5px;
